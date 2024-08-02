@@ -1,0 +1,1 @@
+select * from `vc-inno-data-pipeline.hubspot.contacts_raw`

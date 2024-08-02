@@ -1,0 +1,13 @@
+
+version: 2
+
+models:
+  - name: all_contacts_parquet
+    description: "Load all contacts export in parquet form from HS"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        data_tests:
+          - unique
+          - not_null
+
